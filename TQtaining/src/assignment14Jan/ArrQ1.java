@@ -3,7 +3,12 @@ package assignment14Jan;
 public class ArrQ1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		/*q1)Given array:{ 1 ,2,3,4,5}
+		rotate 1 right side
+		o/p  {2,3,4,5,1}*/
+		
+		
 		int []array={ 1,2,3,4,5};
 		int i=0;
 		
