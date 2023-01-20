@@ -1,6 +1,6 @@
 package string;
 
-public class ToCharArray {
+public class StrngMtd1ToCharArray {
           
 	static void fun(char ch[])
 	{
