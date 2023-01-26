@@ -12,7 +12,7 @@ public class Xobin3 {
 		 for(int i=0;i<arr.length();i++)
 		 {
 			 ch[i]=arr.charAt(i);
-		    	
+		 //   System.out.println(ch[i]);	
 		 }
 		 
 		
@@ -34,7 +34,11 @@ public class Xobin3 {
 		 }  
 		     System.out.println(ch1);
            
-		     String[] a=ch1.split("\\s");              
+		     String[] a=ch1.split("\\s");     
+		     for(int i=0;i<a.length;i++)
+		     {
+		    	 System.out.println(a[i]);
+		     }
              
 	           for(int i=0;i<a.length;i++)
 	           {    
