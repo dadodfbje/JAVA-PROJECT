@@ -14,7 +14,7 @@ public class PrimeNumber {
     		   if( arr[i]%j==0)
                 {
 	                   flag=1;
-	                   break;
+	                  // break;
 	                
                 } 
            }     

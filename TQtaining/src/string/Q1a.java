@@ -5,7 +5,7 @@ public class Q1a {
 	a. Create 2 string using literal and Compare string using == see same 
 	reference is there*/
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
              String a="scp";
              String b="scp";
              System.out.println(a==b);
