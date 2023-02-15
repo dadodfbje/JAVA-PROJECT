@@ -9,13 +9,13 @@ public class Delete {
 		
 		for(int i=0;i<arr.length-1;i++)
 		{
-			arr[i]=arr[i+1];	System.out.println(arr[i]);
+			arr[i]=arr[i+1];	//System.out.println(arr[i]);
 		}
 		int size=arr.length-1;
 	
 		for(int i=0;i<size;i++)
 		{
-			//System.out.println(arr[i]);
+			System.out.println(arr[i]);
 		}
 
 	}

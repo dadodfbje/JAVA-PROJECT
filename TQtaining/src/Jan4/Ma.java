@@ -3,7 +3,8 @@ package Jan4;
 import java.util.Scanner;
 
 public class Ma {
-	    static Scanner sc=new Scanner(System.in);
+	  //  static
+	   static Scanner sc=new Scanner(System.in);
 	    public static BusTicket getTicketDetails(){
 
 	  System.out.println("Enter the passenger name:");

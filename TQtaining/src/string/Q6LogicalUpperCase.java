@@ -10,7 +10,7 @@ public class Q6LogicalUpperCase {
       String ch2="";
       for(int i=0;i<ch.length;i++)
       {
-    	  if(ch[i]>=65 &&ch[i]<=90)
+    	  if(ch[i]>=65 && ch[i]<=90)
     	  {
     		 ch[i]=(char) ((char) ch[i]+32);
     		 ch2=ch2+ch[i];

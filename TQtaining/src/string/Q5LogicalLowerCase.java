@@ -9,9 +9,9 @@ public class Q5LogicalLowerCase {
 		
          String a="india is my country and India is best india is country";
           String []ch=a.toLowerCase().split("\\s");
-          
+        
          for(int i=0;i<ch.length;i++)
- 		{   	
+ 		{   	 
  			int count= 1;		        
  			for(int j=i+1;j<ch.length;j++)
  			{
@@ -23,7 +23,7 @@ public class Q5LogicalLowerCase {
  			}	
  				if(ch[i]!="0")
  			     {
- 			          System.out.println(ch[i]+"<--->"+count);
+ 			         System.out.println(ch[i]+"<--->"+count);
  			     }
  		}		
  				
