@@ -11,13 +11,12 @@ public class Exer1IteratorClasswithHAsNextMtd {
 		fi.add("UK");
 		fi.add("INDIA");
 		fi.add("INDIA");
-		 Iterator<String> i=fi.iterator();
-        
+		 Iterator<String> i=fi.iterator();        
          System.out.println( i.next());
          System.out.println( i.next());
          System.out.println( i.next());
-      //   System.out.println( i.next());
-         System.out.println( i.hasNext());
+     //   System.out.println( i.next());
+          System.out.println( i.hasNext());
 	}
 
 }

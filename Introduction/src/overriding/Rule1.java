@@ -3,7 +3,7 @@ package overriding;
 class Parent
 {
 	
-	 void show()
+	static void show()
 	{
 		System.out.println("parent class show method");
 	}
@@ -11,9 +11,9 @@ class Parent
 
 class Child extends Parent
 {
-	 void show() 
+	static void show() 
 	{    
-		 super.show();
+		// super.show();
 		System.out.println("child class show method");
 	}
 	
