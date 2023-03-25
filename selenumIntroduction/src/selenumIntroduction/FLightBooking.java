@@ -1,5 +1,6 @@
 package selenumIntroduction;
 
+import java.awt.Button;
 import java.sql.DriverManager;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class FLightBooking {
 		Thread.sleep(2000);
 		// fis.findElement(By.xpath("//a[@vlaue='VNS']")).click();
 		fis.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
-
+	
 		// Auto Suggstive Dropdown
 		fis.findElement(By.id("autosuggest")).sendKeys("ind");
 		Thread.sleep(1000);
@@ -58,6 +59,9 @@ public class FLightBooking {
 		fis.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
 		System.out.println(fis.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 		System.out.println(fis.findElements(By.cssSelector("input[type='checkbox']")).size());
+		fis.findElement(By.cssSelector("Button.ui-datepicker-trigger")).click();
+		fis.findElement(By.cssSelector(".ui-state-default.ui-state-highlight.ui-state-active")).click();
+		
 
 	}
 

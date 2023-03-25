@@ -1,10 +1,14 @@
 package string;
 
+import java.util.Scanner;
+
 public class Q14digitinString {
 	/*14.Write a program to find average of digits in string.
 	E.g. input string is “a5i9gfj4tabc” output: 6*/
 	public static void main(String[] args) {
-		String s = "a5i9gfj4tabc";
+		Scanner sc=new Scanner(System.in);
+		String s1 = "a5i9gfj4tabc";
+		String s=sc.next();
 		char[]ch=s.toCharArray();
 		int sum=0;
 		int count=0;
@@ -20,7 +24,8 @@ public class Q14digitinString {
 			}	
 			
 		}
-          System.out.println(sum/count);
+        //  System.out.println(sum/count);
+          System.out.println(sum);
 	}
 
 }

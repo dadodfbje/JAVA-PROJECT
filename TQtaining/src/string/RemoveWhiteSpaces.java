@@ -1,9 +1,13 @@
 package string;
 
+import java.util.Scanner;
+
 public class RemoveWhiteSpaces {
          
 	public static void main(String[] args) {
-		  String ip="  Solar    power is       one of  the green          Way   ";
+		Scanner sc=new Scanner(System.in);
+		  String ip1="  Solar    power is       one of  the green          Way   ";
+		  String ip=sc.nextLine();
 		  String a="";
 	      char[] ch = ip.toCharArray();
 	      char spc=' ';
